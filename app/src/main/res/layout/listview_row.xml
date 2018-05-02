@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ID"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Tên"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtNamSinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Năm Sinh"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Team"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#18e212"
+            android:textColor="#fff"
+            android:layout_margin="5dp
+"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f20"
+            android:textColor="#fff"
+            android:layout_margin="5dp"
+            android:text="Xóa" />
+    </LinearLayout>
+
+</LinearLayout>
